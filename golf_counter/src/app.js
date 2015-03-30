@@ -49,12 +49,12 @@ main.on('click', 'select', function(e) {
     card.on('click', 'up', function()
     {
       counter++;
-      card.body(counter);
+      card.body('Completed = ' + counter);
     });
     card.on('click', 'down', function()
     {
       counter--;
-      card.body(counter);
+      card.body('Completed = ' + counter);
     });
     
     card.show();
@@ -67,9 +67,6 @@ main.on('click', 'select', function(e) {
   });
   
   menu.show();
-  
-
- 
  
   
 });

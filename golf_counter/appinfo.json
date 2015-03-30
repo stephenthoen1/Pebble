@@ -1,7 +1,7 @@
 {
     "appKeys": {},
     "capabilities": [
-        ""
+        "configurable"
     ],
     "companyName": "stephenthoen1@gmail.com",
     "longName": "Golf_Counter",
